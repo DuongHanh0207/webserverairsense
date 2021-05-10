@@ -1,0 +1,46 @@
+#menu_top{
+    background-color: rgb(243, 236, 236);
+    height: 40px}
+   #baner{
+       background-color: rgb(11, 28, 179);
+       height: auto;
+      }
+   
+   #main #left{
+       background-color: rgb(138, 138, 230);
+       float: left;
+       width: 500px;
+       clear: both;
+       min-height: 500px;
+       }
+   #main #right{}
+   
+   #footer{
+       background-color: darkgray;
+       width: ;
+       height:30px ;
+       clear:left ;
+       line-height:30px ;
+   }
+   #menu_top ul{
+       margin:0px ;
+       padding: 0px;}
+   #menu_top ul li{
+       list-style: none;
+       float: right;
+   }
+   #menu_top ul li a{
+       text-decoration: none;
+       display: block;
+       height: 40px;
+       line-height: 40px;
+       color: rgb(230, 10, 10);
+       padding: 0px 15px 0px 0px;
+       border-left: 1px solid rgb(250, 247, 241);
+   }
+   table, th, td{
+       border:1px solid black;
+   }
+   table{
+       border-collapse:collapse;
+   }
