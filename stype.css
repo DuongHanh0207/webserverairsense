@@ -25,21 +25,30 @@
     height: 300px;
     background: #fff;
     border-radius: 15px;
-
 }
+.form-login input{
+    height: 30px;
+    width:50% ;
+    border-radius: 10px;
+    border-radius:5px ;
+    border: 1px solid gray;
+    padding-left: 15px;
+    }
+
 .form-login button{
-    width: 60%;
+    width: 55%;
     height: 35px;
     margin-bottom: 30px;
     background: linear-gradient(120deg, var(--bg2),var(--bg1));
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     color: #fff;
     background-size: 200%;
     transition-delay: 0.2s;
 }
 .form-login button:hover{
     background-position: right;
+    font-size: 15px;
 }
 .form-login h1{
     margin: relative;
