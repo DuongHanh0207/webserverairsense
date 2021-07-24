@@ -150,12 +150,12 @@ if($conn){
         <div id="menu_top">
             
             <ul class="menu">
-                <a href="/web/trangchu.php"><img src="http://airsense.vn/resource/airsense.vn/wp-content/uploads/2020/04/airsense.png" width="300px" height="80px" float:left></a>
+                <a href="/web/Giao_dien_trang_chu.php"><img src="http://airsense.vn/resource/airsense.vn/wp-content/uploads/2020/04/airsense.png" width="300px" height="80px" float:left></a>
                 <li><b><a href="liên kết" title="Giúp Đỡ">GIÚP ĐỠ</a></li>
-                <li><a href="/web/login.php" title="đăng nhập">ĐĂNG NHẬP</a></li>
+                <li><a href="/web/Giao_dien_trang_login.php" title="đăng nhập">ĐĂNG NHẬP</a></li>
                         
-                <li><a href="/web/blog.html" title="thông tin">VỀ CHÚNG TÔI</a></li>
-                <li><a href="/web/trangchu.php" title="trang chủ">TRANG CHỦ</a></li>
+                <li><a href="/web/Giao_dien_trang_blog.html" title="thông tin">VỀ CHÚNG TÔI</a></li>
+                <li><a href="/web/Giao_dien_trang_chu.php" title="trang chủ">TRANG CHỦ</a></li>
                 
             </ul>
         </div>
@@ -169,7 +169,7 @@ if($conn){
         </div>
         <div id="footer">
         <div id="left">
-        <a href="/web/trangchu.php"><img src="http://airsense.vn/resource/airsense.vn/wp-content/uploads/2020/04/airsense.png" width="200px" height="50px"  float:left></a>
+        <a href="/web/Giao_dien_trang_chu.php"><img src="http://airsense.vn/resource/airsense.vn/wp-content/uploads/2020/04/airsense.png" width="200px" height="50px"  float:left></a>
         </div>
         
         <div id="midd">
