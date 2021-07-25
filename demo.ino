@@ -66,17 +66,18 @@ void loop(){
             // turns the GPIOs on and off
             if (header.indexOf("GET /02/on") >= 0) {
               Serial.println("GPIO 02 on");
-              output2State = "on";
+              output2State = "ON";
               digitalWrite(output2, HIGH);
             } else if (header.indexOf("GET /02/off") >= 0) {
               Serial.println("GPIO 02 off");
-              output2State = "off";
+              output2State = "OFF";
               digitalWrite(output2, LOW);
             } 
             
             // Display the HTML web page
             client.println("<!DOCTYPE html><html>");
             client.println("<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">");
+            client.println("<meta charset=\"utf-8\"\">");
             client.println("<link rel=\"icon\" href=\"data:,\">");
             // CSS to style the on/off buttons 
             // Feel free to change the background-color and font-size attributes to fit your preferences
@@ -86,12 +87,12 @@ void loop(){
             client.println(".button2 {background-color: #77878A;}</style></head>");
             
             // Web Page Heading
-            client.println("<body><h1>ESP32 Web Server</h1>");
+            client.println("<body><h1>Web server ESP32</h1>");
             
             // Display current state, and ON/OFF buttons for GPIO 02  
-            client.println("<p>GPIO 02 - State " + output2State + "</p>");
+            client.println("<p>Trạng thái thiết bị: " + output2State + "</p>");
             // If the outputState is off, it displays the ON button       
-            if (output2State=="off") {
+            if (output2State=="OFF") {
               client.println("<p><a href=\"/02/on\"><button class=\"button\">ON</button></a></p>");
             } else {
               client.println("<p><a href=\"/02/off\"><button class=\"button button2\">OFF</button></a></p>");
